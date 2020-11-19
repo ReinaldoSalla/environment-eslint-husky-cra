@@ -8,7 +8,10 @@
   "rules": {
     "no-console": "error",
     "curly": "error",
-    "func-style": ["error", "expression"]
+    "func-style": ["error", "expression"],
+    "prettier/prettier": ["error", {
+      "endOfLine":"auto"
+     }]
   }
 }
 
