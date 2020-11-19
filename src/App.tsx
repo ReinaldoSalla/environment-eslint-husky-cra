@@ -26,7 +26,7 @@
 // export default App;
 
 // testing eslint - prettier - husky
-import React from "react";
+import React from 'react';
 
 const App = () => {
   return <button onClick={() => {}}></button>;
