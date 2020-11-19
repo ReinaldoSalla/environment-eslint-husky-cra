@@ -25,6 +25,7 @@
 
 // export default App;
 
+// testing eslint - prettier - husky
 import React from "react";
 
 const App = () => {
