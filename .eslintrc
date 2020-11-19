@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "react-app",
+    "eslint:recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "no-console": "error",
+    "curly": "error",
+    "func-style": ["error", "expression"]
+  },
+  "plugins": [
+    "jsx-a11y"
+  ]
+}
+
