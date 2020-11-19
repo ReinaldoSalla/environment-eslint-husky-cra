@@ -9,9 +9,6 @@
     "no-console": "error",
     "curly": "error",
     "func-style": ["error", "expression"]
-  },
-  "plugins": [
-    "jsx-a11y"
-  ]
+  }
 }
 

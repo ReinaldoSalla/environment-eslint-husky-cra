@@ -29,11 +29,7 @@
 import React from "react";
 
 const App = () => {
-  return (
-    <div>
-      aaaaaaaaaaaaaaasdsssssssssssssssssssssssssssssssssssssssssssssdsdsdss
-    </div>
-  );
+  return <button onClick={() => {}}></button>;
 };
 
 export default App;
