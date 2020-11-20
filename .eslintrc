@@ -2,8 +2,10 @@
   "extends": [
     "react-app",
     "eslint:recommended",
-    "plugin:jsx-a11y/recommended",
-    "plugin:prettier/recommended"
+    "plugin:prettier/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:jsx-a11y/recommended"
+    // "airbnb"
   ],
   "rules": {
     "no-console": "error",
