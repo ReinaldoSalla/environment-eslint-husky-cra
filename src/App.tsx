@@ -9,7 +9,7 @@ const func = (arg: boolean): boolean => {
 
 func(true);
 
-//eslint-disable-next-line
+// eslint-disable-next-line
 const App = () => (
   <div>
     {/* eslint-disable-next-line */}
