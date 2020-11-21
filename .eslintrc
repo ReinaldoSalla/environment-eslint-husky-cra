@@ -1,22 +1,29 @@
 {
   "extends": [
     "react-app",
+    // "airbnb",
     "eslint:recommended",
     "plugin:prettier/recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:jsx-a11y/recommended"
-    // "airbnb"
-    // "airbnb-typescript-prettier"
   ],
   "rules": {
-    // "no-console": "error",
-    "curly": "error",
-    "func-style": ["error", "expression"],
-    "no-use-before-define": "off",
-    "@typescript-eslint/no-use-before-define": ["error"],
     "prettier/prettier": ["error", {
       "endOfLine":"auto"
-     }]
+    }],
+    "linebreak-style": "off",
+    "no-console": "error",
+    "curly": "error",
+    "func-style": ["error", "expression"],
+    "no-else-return": "error"
+    // "no-use-before-define": "off",
+    // "@typescript-eslint/no-use-before-define": ["error"],
+    // "react/jsx-filename-extension": [1, { "extensions": [
+    //   ".js",
+    //   ".jsx",
+    //   ".ts",
+    //   ".tsx"
+    // ]}]
   }
 }
 
