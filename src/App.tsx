@@ -13,7 +13,7 @@ func(true);
 const App = () => (
   <div>
     {/* eslint-disable-next-line */}
-    <div onClick={() => {}}></div>
+    <div onClick={() => {}} />
   </div>
 );
 
