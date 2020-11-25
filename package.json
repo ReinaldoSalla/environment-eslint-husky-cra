@@ -21,8 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "format": "prettier src/**/*.{js,jsx,ts,tsx} --write",
-    "lint": "eslint src/**/*.{js,jsx,ts,tsx} --fix",
+    "lint": "eslint src/**/*.{ts,tsx} --fix",
     "lint-staged": "lint-staged"
   },
   "husky": {
@@ -31,8 +30,7 @@
     }
   },
   "lint-staged": {
-    "**/*.{js,jsx,ts,tsx}": [
-      "npm run format",
+    "src/**/*.{ts,tsx}": [
       "npm run lint",
       "git add ."
     ]
@@ -57,11 +55,8 @@
   },
   "devDependencies": {
     "eslint-config-airbnb": "18.2.1",
-    "eslint-config-prettier": "6.15.0",
     "eslint-import-resolver-typescript": "2.3.0",
-    "eslint-plugin-prettier": "3.1.4",
     "husky": "4.3.0",
-    "lint-staged": "10.5.1",
-    "prettier": "2.1.2"
+    "lint-staged": "10.5.1"
   }
 }
